@@ -29,21 +29,47 @@
 .Os
 .Sh NAME
 .Nm gzero
-.Nd the zero block device
+.Nd the zero disk/block device
 .Sh DESCRIPTION
 The
 .Nm
-device is part of the 
-.Xr geom 4
+device is provider in the 
+.Xr GEOM 4
 modular disk I/O requestion transformation framework.  It simulates
-a 1 etabyte write only disk that is filled with the byte 0x00.
+a 1 etabyte write-only disk where all blocks read are filled with the byte 0x00.
+It differs from 
+.Xr zero 4 ,
+which is a regular character device and has an infinite length.  The /dev/gzero device is created by loading the geom_zero kernel module with either the command:
+.Pp
+.Dl # kldload geom_zero
+.Pp
+or
+.Pp
+.Dl # geom load zero
+.Pp
+The /dev/gzero device is removed by unloading the geom_zero kernel module with either the command
+.Pp
+.Dl # kldunload geom_zero
+.Pp
+or
+.Pp
+.Dl # geom unload zero
+.Pp
+It can be used to benchmark the speed of some other disk or subsystem, where compression of
+the data is not change the results.  Blocks from /dev/gzero will compress exceptionally well.
 .Sh FILES
 .Bl -tag -width /dev/gzero
 .It Pa /dev/gzero
 .El
 .Sh SEE ALSO
-.Xr geom 4 ,
-.Xr zero 4
+.Xr GEOM 4 ,
+.Xr zero 4 ,
+.Xr geom 8 
+.Rs
+.%B "The FreeBSD Handbook"
+.%T "18.3.3. Creating a Mirror with an Existing Drive"
+.%U https://www.freebsd.org/doc/handbook/geom-mirror.html#geom-mirror-existing-drive
+.Re
 .Sh HISTORY
 A
 .Nm 
@@ -53,7 +79,7 @@ device first appeared in
 .An -nosplit
 The 
 .Nm
-device was writtent by
+device was written by
 .An Pawel Jakub Dawidek <pjd@FreeBSD.org> .
 The
 .Nm
