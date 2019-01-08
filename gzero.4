@@ -56,7 +56,16 @@ or
 .Dl # geom unload zero
 .Pp
 It can be used to benchmark the speed of some other disk or subsystem, where compression of
-the data is not change the results.  Blocks from /dev/gzero will compress exceptionally well.
+the data is not change the results (clearly blocks from /dev/gzero will compress exceptionally well.).  An example of a benchmark that might use /dev/gzero is comparing disk encryption algorithms (e.g. AES-XTI versus 3DES-CBC) or environments (e.g. software versus hardware implementation of AES-XTI).
+.Pp
+Once loaded, information about the gzero device can be found with the following command:
+.Dl # geom zero list
+.Dl Geom name: gzero
+.Dl Providers:
+.Dl 1. Name: gzero
+.Dl    Mediasize: 1152921504606846976 (1.0E)
+.Dl    Sectorsize: 512
+.Dl    Mode: r0w0e0
 .Sh FILES
 .Bl -tag -width /dev/gzero
 .It Pa /dev/gzero
