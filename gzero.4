@@ -36,36 +36,36 @@ The
 device is provider in the 
 .Xr GEOM 4
 modular disk I/O requestion transformation framework.  It simulates
-a 1 etabyte write-only disk where all blocks read are filled with the byte 0x00.
+a 1 Etabyte write-only disk where all blocks read are filled with the byte 0x00.
 It differs from 
 .Xr zero 4 ,
 which is a regular character device and has an infinite length.  The /dev/gzero device is created by loading the geom_zero kernel module with either the command:
 .Pp
 .Dl # kldload geom_zero
-.Pp
 or
-.Pp
 .Dl # geom load zero
 .Pp
 The /dev/gzero device is removed by unloading the geom_zero kernel module with either the command
 .Pp
 .Dl # kldunload geom_zero
-.Pp
 or
-.Pp
 .Dl # geom unload zero
 .Pp
-It can be used to benchmark the speed of some other disk or subsystem, where compression of
-the data is not change the results (clearly blocks from /dev/gzero will compress exceptionally well.).  An example of a benchmark that might use /dev/gzero is comparing disk encryption algorithms (e.g. AES-XTI versus 3DES-CBC) or environments (e.g. software versus hardware implementation of AES-XTI).
-.Pp
 Once loaded, information about the gzero device can be found with the following command:
+.Pp
 .Dl # geom zero list
 .Dl Geom name: gzero
 .Dl Providers:
 .Dl 1. Name: gzero
-.Dl    Mediasize: 1152921504606846976 (1.0E)
-.Dl    Sectorsize: 512
-.Dl    Mode: r0w0e0
+.Dl "   Mediasize: 1152921504606846976 (1.0E)"
+.Dl "   Sectorsize: 512"
+.Dl "   Mode: r0w0e0"
+.Pp
+It can be used as a quick and naive benchmark of the speed of a disk or subsystem, 
+where compression of the data will not change the results (clearly blocks from 
+/dev/gzero will compress exceptionally well.)  An example of a benchmark that might 
+use /dev/gzero is comparing disk encryption algorithms (e.g. AES-XTI versus 3DES-CBC)
+or environments (e.g. software versus hardware implementation of AES-XTI).
 .Sh FILES
 .Bl -tag -width /dev/gzero
 .It Pa /dev/gzero
