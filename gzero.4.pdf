@@ -703,361 +703,444 @@ ET
 BT
 /F0 11 Tf
 137.995 287.485 Td
-(r0w0e0) Tj
+(r0w0egzero0) Tj
 ET
 BT
 /F0 11 Tf
 81.774 256.707 Td
-(It) Tj
+(You) Tj
 ET
 BT
 /F0 11 Tf
-91.245 256.707 Td
+103.466 256.707 Td
 (can) Tj
 ET
 BT
 /F0 11 Tf
-109.263 256.707 Td
-(be) Tj
+121.484 256.707 Td
+(set) Tj
 ET
 BT
 /F0 11 Tf
-122.397 256.707 Td
-(used) Tj
+136.455 256.707 Td
+(the) Tj
 ET
 BT
 /F0 11 Tf
-145.310 256.707 Td
-(as) Tj
+152.647 256.707 Td
+(fill) Tj
 ET
 BT
 /F0 11 Tf
-157.223 256.707 Td
-(a) Tj
+168.234 256.707 Td
+(byte) Tj
 ET
 BT
 /F0 11 Tf
-164.857 256.707 Td
-(simple) Tj
-ET
-BT
-/F0 11 Tf
-196.944 256.707 Td
-(benchmark) Tj
-ET
-BT
-/F0 11 Tf
-248.567 256.707 Td
+189.926 256.707 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-260.480 256.707 Td
+201.839 256.707 Td
 (the) Tj
+ET
+BT
+/F0 11 Tf
+218.031 256.707 Td
+(gzero) Tj
+ET
+BT
+/F0 11 Tf
+245.212 256.707 Td
+(device) Tj
 ET
 BT
 /F0 11 Tf
 276.672 256.707 Td
-(speed) Tj
+(\(in) Tj
 ET
 BT
 /F0 11 Tf
-304.469 256.707 Td
-(of) Tj
+291.643 256.707 Td
+(this) Tj
 ET
 BT
 /F0 11 Tf
-316.382 256.707 Td
+310.288 256.707 Td
+(case) Tj
+ET
+BT
+/F0 11 Tf
+331.969 256.707 Td
+(to) Tj
+ET
+BT
+/F0 11 Tf
+343.277 256.707 Td
+(42\)) Tj
+ET
+BT
+/F0 11 Tf
+360.690 256.707 Td
+(using) Tj
+ET
+BT
+/F0 11 Tf
+387.277 256.707 Td
+(the) Tj
+ET
+BT
+/F0 11 Tf
+403.469 256.707 Td
+(following) Tj
+ET
+BT
+/F0 11 Tf
+448.998 256.707 Td
+(sysctl:) Tj
+ET
+BT
+/F0 11 Tf
+98.274 225.929 Td
+(#) Tj
+ET
+BT
+/F0 11 Tf
+106.524 225.929 Td
+(sysctl) Tj
+ET
+BT
+/F0 11 Tf
+134.332 225.929 Td
+(kern.geom.zero.clear=42) Tj
+ET
+BT
+/F0 11 Tf
+81.774 195.151 Td
+(It) Tj
+ET
+BT
+/F0 11 Tf
+91.245 195.151 Td
+(can) Tj
+ET
+BT
+/F0 11 Tf
+109.263 195.151 Td
+(be) Tj
+ET
+BT
+/F0 11 Tf
+122.397 195.151 Td
+(used) Tj
+ET
+BT
+/F0 11 Tf
+145.310 195.151 Td
+(as) Tj
+ET
+BT
+/F0 11 Tf
+157.223 195.151 Td
 (a) Tj
 ET
 BT
 /F0 11 Tf
-324.016 256.707 Td
+164.857 195.151 Td
+(simple) Tj
+ET
+BT
+/F0 11 Tf
+196.944 195.151 Td
+(benchmark) Tj
+ET
+BT
+/F0 11 Tf
+248.567 195.151 Td
+(of) Tj
+ET
+BT
+/F0 11 Tf
+260.480 195.151 Td
+(the) Tj
+ET
+BT
+/F0 11 Tf
+276.672 195.151 Td
+(speed) Tj
+ET
+BT
+/F0 11 Tf
+304.469 195.151 Td
+(of) Tj
+ET
+BT
+/F0 11 Tf
+316.382 195.151 Td
+(a) Tj
+ET
+BT
+/F0 11 Tf
+324.016 195.151 Td
 (disk) Tj
 ET
 BT
 /F0 11 Tf
-345.103 256.707 Td
+345.103 195.151 Td
 (or) Tj
 ET
 BT
 /F0 11 Tf
-357.016 256.707 Td
+357.016 195.151 Td
 (subsystem,) Tj
 ET
 BT
 /F0 11 Tf
-408.353 256.707 Td
+408.353 195.151 Td
 (where) Tj
 ET
 BT
 /F0 11 Tf
-437.976 256.707 Td
+437.976 195.151 Td
 (compression) Tj
 ET
 BT
 /F0 11 Tf
-496.331 256.707 Td
+496.331 195.151 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-508.244 256.707 Td
+508.244 195.151 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-524.436 256.707 Td
+524.436 195.151 Td
 (data) Tj
 ET
 BT
 /F0 11 Tf
-81.774 241.318 Td
-(will) Tj
+81.774 179.762 Td
+(does) Tj
 ET
 BT
 /F0 11 Tf
-101.640 241.318 Td
+104.687 179.762 Td
 (not) Tj
 ET
 BT
 /F0 11 Tf
-118.448 241.318 Td
-(change) Tj
+121.495 179.762 Td
+(affect) Tj
 ET
 BT
 /F0 11 Tf
-152.350 241.318 Td
+149.281 179.762 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-168.542 241.318 Td
+165.473 179.762 Td
 (results) Tj
 ET
 BT
 /F0 11 Tf
-200.013 241.318 Td
-(\(clearly) Tj
+196.944 179.762 Td
+(\(clearly,) Tj
 ET
 BT
 /F0 11 Tf
-236.357 241.318 Td
+236.038 179.762 Td
 (blocks) Tj
 ET
 BT
 /F0 11 Tf
-267.828 241.318 Td
+267.509 179.762 Td
 (from) Tj
 ET
 BT
 /F0 11 Tf
-291.962 241.318 Td
+291.643 179.762 Td
 (/dev/gzero) Tj
 ET
 BT
 /F0 11 Tf
-341.143 241.318 Td
+340.824 179.762 Td
 (will) Tj
 ET
 BT
 /F0 11 Tf
-361.009 241.318 Td
+360.690 179.762 Td
 (compress) Tj
 ET
 BT
 /F0 11 Tf
-405.306 241.318 Td
+404.987 179.762 Td
 (exceptionally) Tj
 ET
 BT
 /F0 11 Tf
-467.324 241.318 Td
+467.005 179.762 Td
 (well.\)) Tj
 ET
 BT
 /F0 11 Tf
-498.179 241.318 Td
+497.860 179.762 Td
 (Example) Tj
 ET
 BT
 /F0 11 Tf
-81.774 225.929 Td
+81.774 164.373 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-93.687 225.929 Td
+93.687 164.373 Td
 (a) Tj
 ET
 BT
 /F0 11 Tf
-101.321 225.929 Td
+101.321 164.373 Td
 (benchmarks) Tj
 ET
 BT
 /F0 11 Tf
-157.223 225.929 Td
+157.223 164.373 Td
 (that) Tj
 ET
 BT
 /F0 11 Tf
-176.473 225.929 Td
+176.473 164.373 Td
 (might) Tj
 ET
 BT
 /F0 11 Tf
-204.897 225.929 Td
+204.897 164.373 Td
 (use) Tj
 ET
 BT
 /F0 11 Tf
-222.310 225.929 Td
+222.310 164.373 Td
 (/dev/gzero) Tj
 ET
 BT
 /F0 11 Tf
-271.491 225.929 Td
+271.491 164.373 Td
 (is) Tj
 ET
 BT
 /F0 11 Tf
-281.578 225.929 Td
+281.578 164.373 Td
 (comparing) Tj
 ET
 BT
 /F0 11 Tf
-331.375 225.929 Td
+331.375 164.373 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-347.567 225.929 Td
+347.567 164.373 Td
 (speed) Tj
 ET
 BT
 /F0 11 Tf
-375.364 225.929 Td
+375.364 164.373 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-387.277 225.929 Td
+387.277 164.373 Td
 (two) Tj
 ET
 BT
 /F0 11 Tf
-406.527 225.929 Td
+406.527 164.373 Td
 (disk) Tj
 ET
 BT
 /F0 11 Tf
-427.614 225.929 Td
+427.614 164.373 Td
 (encryption) Tj
 ET
 BT
 /F0 11 Tf
-477.411 225.929 Td
+477.411 164.373 Td
 (algorithms) Tj
 ET
 BT
 /F0 11 Tf
-527.219 225.929 Td
+527.219 164.373 Td
 (or) Tj
 ET
 BT
 /F0 11 Tf
-81.774 210.540 Td
+81.774 148.984 Td
 (comparing) Tj
 ET
 BT
 /F0 11 Tf
-131.571 210.540 Td
+131.571 148.984 Td
 (a) Tj
 ET
 BT
 /F0 11 Tf
-139.205 210.540 Td
+139.205 148.984 Td
 (hardware) Tj
 ET
 BT
 /F0 11 Tf
-182.875 210.540 Td
+182.875 148.984 Td
 (versus) Tj
 ET
 BT
 /F0 11 Tf
-213.730 210.540 Td
+213.730 148.984 Td
 (software) Tj
 ET
 BT
 /F0 11 Tf
-254.353 210.540 Td
+254.353 148.984 Td
 (implementation) Tj
 ET
 BT
 /F0 11 Tf
-326.161 210.540 Td
+326.161 148.984 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-338.074 210.540 Td
+338.074 148.984 Td
 (a) Tj
 ET
 BT
 /F0 11 Tf
-345.708 210.540 Td
+345.708 148.984 Td
 (single) Tj
 ET
 BT
 /F0 11 Tf
-374.737 210.540 Td
+374.737 148.984 Td
 (encryption) Tj
 ET
 BT
 /F0 11 Tf
-424.534 210.540 Td
+424.534 148.984 Td
 (algorithms.) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-68.024 179.762 Td
+68.024 118.206 Td
 (FILES) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-81.774 164.373 Td
+81.774 102.817 Td
 (/dev/gzero) Tj
-ET
-/F1 11 Tf
-BT
-/F1 11 Tf
-68.024 133.595 Td
-(SEE) Tj
-ET
-BT
-/F1 11 Tf
-91.564 133.595 Td
-(ALSO) Tj
-ET
-/F0 11 Tf
-BT
-/F0 11 Tf
-81.774 118.206 Td
-(GEOM\(4\),) Tj
-ET
-BT
-/F0 11 Tf
-132.484 118.206 Td
-(zero\(4\),) Tj
-ET
-BT
-/F0 11 Tf
-169.741 118.206 Td
-(geom\(8\)) Tj
 ET
 /F0 11 Tf
 BT
@@ -1098,37 +1181,37 @@ ET
 BT
 /F0 11 Tf
 111.716 36.245 Td
-(12.0-RELEASE) Tj
+(12.0-RELEASE-p10) Tj
 ET
 BT
 /F0 11 Tf
-272.536 36.245 Td
-(January) Tj
+263.670 36.245 Td
+(November) Tj
 ET
 BT
 /F0 11 Tf
-309.496 36.245 Td
-(6,) Tj
+312.851 36.245 Td
+(10,) Tj
 ET
 BT
 /F0 11 Tf
-320.496 36.245 Td
+329.351 36.245 Td
 (2019) Tj
 ET
 BT
 /F0 11 Tf
-429.374 36.245 Td
+409.211 36.245 Td
 (FreeBSD) Tj
 ET
 BT
 /F0 11 Tf
-473.066 36.245 Td
-(12.0-RELEASE) Tj
+452.903 36.245 Td
+(12.0-RELEASE-p10) Tj
 ET
 endstream
 endobj
 8 0 obj
-10063
+10829
 endobj
 9 0 obj
 <<
@@ -1155,248 +1238,280 @@ endobj
 >>
 stream
 BT
+/F1 11 Tf
+68.024 702.988 Td
+(SEE) Tj
+ET
+BT
+/F1 11 Tf
+91.564 702.988 Td
+(ALSO) Tj
+ET
+/F0 11 Tf
+BT
+/F0 11 Tf
+81.774 687.599 Td
+(GEOM\(4\),) Tj
+ET
+BT
+/F0 11 Tf
+132.484 687.599 Td
+(zero\(4\),) Tj
+ET
+BT
+/F0 11 Tf
+169.741 687.599 Td
+(geom\(8\),) Tj
+ET
+BT
+/F0 11 Tf
+212.509 687.599 Td
+(sysctl\(8\)) Tj
+ET
 /F2 11 Tf
-81.774 702.988 Td
+BT
+/F2 11 Tf
+81.774 656.821 Td
 (18.3.3.) Tj
 ET
 BT
 /F2 11 Tf
-114.774 702.988 Td
+114.774 656.821 Td
 (Creating) Tj
 ET
 BT
 /F2 11 Tf
-156.640 702.988 Td
+156.640 656.821 Td
 (a) Tj
 ET
 BT
 /F2 11 Tf
-164.890 702.988 Td
+164.890 656.821 Td
 (Mirror) Tj
 ET
 BT
 /F2 11 Tf
-198.198 702.988 Td
+198.198 656.821 Td
 (with) Tj
 ET
 BT
 /F2 11 Tf
-219.901 702.988 Td
+219.901 656.821 Td
 (an) Tj
 ET
 BT
 /F2 11 Tf
-233.651 702.988 Td
+233.651 656.821 Td
 (Existing) Tj
 ET
 BT
 /F2 11 Tf
-272.459 702.988 Td
+272.459 656.821 Td
 (Drive) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-297.506 702.988 Td
+297.506 656.821 Td
 (,) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-303.006 702.988 Td
+303.006 656.821 Td
 (The) Tj
 ET
 BT
 /F2 11 Tf
-322.256 702.988 Td
+322.256 656.821 Td
 (FreeBSD) Tj
 ET
 BT
 /F2 11 Tf
-365.937 702.988 Td
+365.937 656.821 Td
 (Handbook) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-411.763 702.988 Td
+411.763 656.821 Td
 (,) Tj
 ET
 BT
 /F0 11 Tf
-81.774 687.599 Td
+81.774 641.432 Td
 (https://www.freebsd.org/doc/handbook/geom-mirror.html#geom-mirror-existing-drive.) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-68.024 656.821 Td
+68.024 610.654 Td
 (HISTORY) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-81.774 641.432 Td
+81.774 595.265 Td
 (A) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-92.466 641.432 Td
+92.466 595.265 Td
 (gzero) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-120.868 641.432 Td
+120.868 595.265 Td
 (device) Tj
 ET
 BT
 /F0 11 Tf
-152.328 641.432 Td
+152.328 595.265 Td
 (first) Tj
 ET
 BT
 /F0 11 Tf
-172.799 641.432 Td
+172.799 595.265 Td
 (appeared) Tj
 ET
 BT
 /F0 11 Tf
-215.248 641.432 Td
+215.248 595.265 Td
 (in) Tj
 ET
 BT
 /F0 11 Tf
-226.556 641.432 Td
+226.556 595.265 Td
 (FreeBSD) Tj
 ET
 BT
 /F0 11 Tf
-270.248 641.432 Td
+270.248 595.265 Td
 (6) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-68.024 610.654 Td
+68.024 564.487 Td
 (AUTHORS) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-81.774 595.265 Td
+81.774 549.098 Td
 (The) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-101.629 595.265 Td
+101.629 549.098 Td
 (gzero) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-130.031 595.265 Td
+130.031 549.098 Td
 (device) Tj
 ET
 BT
 /F0 11 Tf
-161.491 595.265 Td
+161.491 549.098 Td
 (was) Tj
 ET
 BT
 /F0 11 Tf
-181.346 595.265 Td
+181.346 549.098 Td
 (written) Tj
 ET
 BT
 /F0 11 Tf
-215.259 595.265 Td
+215.259 549.098 Td
 (by) Tj
 ET
 BT
 /F0 11 Tf
-229.009 595.265 Td
+229.009 549.098 Td
 (Pawel) Tj
 ET
 BT
 /F0 11 Tf
-258.643 595.265 Td
+258.643 549.098 Td
 (Jakub) Tj
 ET
 BT
 /F0 11 Tf
-287.056 595.265 Td
+287.056 549.098 Td
 (Dawidek) Tj
 ET
 BT
 /F0 11 Tf
-329.516 595.265 Td
+329.516 549.098 Td
 (<pjd@FreeBSD.org>.) Tj
 ET
 BT
 /F0 11 Tf
-432.718 595.265 Td
+432.718 549.098 Td
 (The) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-452.573 595.265 Td
+452.573 549.098 Td
 (gzero) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-480.975 595.265 Td
+480.975 549.098 Td
 (manual) Tj
 ET
 BT
 /F0 11 Tf
-516.109 595.265 Td
+516.109 549.098 Td
 (page) Tj
 ET
 BT
 /F0 11 Tf
-81.774 579.876 Td
+81.774 533.709 Td
 (was) Tj
 ET
 BT
 /F0 11 Tf
-101.629 579.876 Td
+101.629 533.709 Td
 (written) Tj
 ET
 BT
 /F0 11 Tf
-135.542 579.876 Td
+135.542 533.709 Td
 (by) Tj
 ET
 BT
 /F0 11 Tf
-149.292 579.876 Td
+149.292 533.709 Td
 (Greg) Tj
 ET
 BT
 /F0 11 Tf
-174.031 579.876 Td
+174.031 533.709 Td
 (White) Tj
 ET
 BT
 /F0 11 Tf
-203.665 579.876 Td
+203.665 533.709 Td
 (<) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-209.869 579.876 Td
+209.869 533.709 Td
 (gkwhite@gmail.com) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-300.344 579.876 Td
+300.344 533.709 Td
 (>.) Tj
 ET
 /F0 11 Tf
@@ -1438,37 +1553,37 @@ ET
 BT
 /F0 11 Tf
 111.716 36.245 Td
-(12.0-RELEASE) Tj
+(12.0-RELEASE-p10) Tj
 ET
 BT
 /F0 11 Tf
-272.536 36.245 Td
-(January) Tj
+263.670 36.245 Td
+(November) Tj
 ET
 BT
 /F0 11 Tf
-309.496 36.245 Td
-(6,) Tj
+312.851 36.245 Td
+(10,) Tj
 ET
 BT
 /F0 11 Tf
-320.496 36.245 Td
+329.351 36.245 Td
 (2019) Tj
 ET
 BT
 /F0 11 Tf
-429.374 36.245 Td
+409.211 36.245 Td
 (FreeBSD) Tj
 ET
 BT
 /F0 11 Tf
-473.066 36.245 Td
-(12.0-RELEASE) Tj
+452.903 36.245 Td
+(12.0-RELEASE-p10) Tj
 ET
 endstream
 endobj
 12 0 obj
-2973
+3294
 endobj
 13 0 obj
 <<
@@ -1507,20 +1622,20 @@ xref
 0 16
 0000000000 65535 f 
 0000000009 00000 n 
-0000013902 00000 n 
+0000014989 00000 n 
 0000000030 00000 n 
 0000000112 00000 n 
 0000000193 00000 n 
 0000000276 00000 n 
 0000000363 00000 n 
-0000010478 00000 n 
-0000010499 00000 n 
-0000010594 00000 n 
-0000010675 00000 n 
-0000013702 00000 n 
-0000013723 00000 n 
-0000013819 00000 n 
-0000013992 00000 n 
+0000011244 00000 n 
+0000011265 00000 n 
+0000011360 00000 n 
+0000011441 00000 n 
+0000014789 00000 n 
+0000014810 00000 n 
+0000014906 00000 n 
+0000015079 00000 n 
 trailer
 <<
 /Size 16
@@ -1528,5 +1643,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-14042
+15129
 %%EOF
